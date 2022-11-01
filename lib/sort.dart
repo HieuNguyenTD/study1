@@ -1,9 +1,9 @@
-void main(){
+void main() {
   double a = 10, b = -50, c = 11, d = 6, e = 8;
 
   List<double> numbers = [a, b, c, d, e];
 
-  if(numbers.isNotEmpty){
+  if (numbers.isNotEmpty) {
     numbers.sort();
     print(numbers.last);
 
@@ -12,5 +12,6 @@ void main(){
 
     numbers.sort((a, b) => b.compareTo(a));
     print(numbers.last);
+    print('abc');
   }
 }
